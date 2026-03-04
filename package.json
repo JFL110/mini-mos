@@ -1,0 +1,17 @@
+{
+	"name": "mini-mos",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"setup": "wrangler types && wrangler d1 migrations apply DATABASE --local",
+		"start": "wrangler dev",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.12.4",
+		"@types/node": "^25.3.3",
+		"typescript": "^5.5.2",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.70.0"
+	}
+}
