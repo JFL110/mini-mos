@@ -1,7 +1,7 @@
 import { applyD1Migrations, env, SELF } from "cloudflare:test";
 import { beforeEach, describe, expect, it } from "vitest";
 
-describe("Hello World worker", () => {
+describe("mini-mos worker", () => {
 	beforeEach(() => applyD1Migrations(env.DATABASE, env.TEST_MIGRATIONS));
 
 	it("responds with Hello World!", async () => {
