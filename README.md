@@ -3,7 +3,7 @@
 Commands:
 ```
 npm i
-npm setup
+npm run setup
 npm test
 npm start
 ```
